@@ -137,7 +137,7 @@ userid: 71b3f9655c365332a874452d17944a41aa48ba5a68ab25888e0472d366082970
 }
 ```
 
-Note: item should be a valid pizza name from the list of available pizzas. It allows multiple to add multiple pizzas with same name to the cart. After adding the shoppingcart array of the user object is updated.
+Note: item should be a valid pizza name from the list of available pizzas. It allows multiple to add multiple pizzas with the same name to the cart. After that the shoppingcart array of the user object is updated.
 
 
 #### [DELETE] http://localhost:3000/cart
@@ -170,7 +170,7 @@ token : p3lu4xskbhpg0jlmhq30
 userid: 71b3f9655c365332a874452d17944a41aa48ba5a68ab25888e0472d366082970
 
 
-Note: Using the id on query string, lookup and fetch the order object from the orders data folder.
+Note: Using the id query string, lookup and fetch the order object from the orders data folder.
 
 Example:
 ```json
